@@ -1,3 +1,5 @@
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 import "./index.css";
 
 const HomePage = () => (
@@ -30,6 +32,14 @@ const HomePage = () => (
         <li>SQLite</li>
         <li>Node.JS (Express.js)</li>
       </ul>
+      <div className="social-media">
+        <a href="https://www.linkedin.com/in/tarra-madhava-rao/" target="blank">
+          <FaLinkedin className="social-item" />
+        </a>
+        <a href="https://github.com/T-MADHAVARAO/cc-assign" target="blank">
+          <FaGithubSquare className="social-item" />
+        </a>
+      </div>
     </div>
   </div>
 );
