@@ -18,6 +18,7 @@ button {
   border: 0.4px solid red;
   padding: 6px;
   color: antiquewhite;
+  margin: 10px;
 }
 p {
   color: red;

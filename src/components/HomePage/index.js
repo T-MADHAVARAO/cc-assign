@@ -37,6 +37,10 @@ const HomePage = () => (
       <h1>
         BMI Calculator Project : <Link to="/bmi-app">BMI-APP</Link>
       </h1>
+
+      <Link to="/my-resume">
+        Visit my resume here -<button>My Resume</button>
+      </Link>
       <div className="social-media">
         <a href="https://www.linkedin.com/in/tarra-madhava-rao/" target="blank">
           <FaLinkedin className="social-item" />
