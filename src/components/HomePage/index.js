@@ -4,6 +4,15 @@ const HomePage = () => (
   <div className="App">
     <h1 className="details">MY ABOUT </h1>
     <div className="data">
+      <div className="profile-img-sec">
+        <div className="profile-cont">
+          <img
+            src="https://res.cloudinary.com/dmhifljqo/image/upload/v1702889508/898de90d-8fc7-45e2-99bc-438bdd69b9eb_1_dtzi0y.jpg"
+            alt="profile"
+            className="profile"
+          />
+        </div>
+      </div>
       <h1 className="item">
         Name : <span>TARRA MADHAVA RAO</span>
       </h1>

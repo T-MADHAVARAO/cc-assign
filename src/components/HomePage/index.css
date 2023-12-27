@@ -33,3 +33,21 @@ li {
     font-size: 30px;
   }
 }
+.profile-img-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.profile-cont {
+  width: 100px;
+  height: 100px;
+  border-radius: 56px;
+  padding: 6px;
+  border: solid 0.5px green;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
