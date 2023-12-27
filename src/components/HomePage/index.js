@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import "./index.css";
@@ -32,6 +34,9 @@ const HomePage = () => (
         <li>SQLite</li>
         <li>Node.JS (Express.js)</li>
       </ul>
+      <h1>
+        BMI Calculator Project : <Link to="/bmi-app">BMI-APP</Link>
+      </h1>
       <div className="social-media">
         <a href="https://www.linkedin.com/in/tarra-madhava-rao/" target="blank">
           <FaLinkedin className="social-item" />

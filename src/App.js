@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HomePage from "./components/HomePage";
+import BmiApp from "./components/BMIPage";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" Component={HomePage} />
+        <Route path="/bmi-app" Component={BmiApp} />
       </Routes>
     </BrowserRouter>
   );
